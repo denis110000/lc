@@ -9,3 +9,8 @@ ssh-copy-id -i ~/.ssh/key.pub user@machine
 scp file.txt user1@remote_server:~/
 
 [mysql]
+#
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+
+#
+GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
