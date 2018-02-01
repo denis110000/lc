@@ -18,3 +18,5 @@ GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
 #
 FLUSH PRIVILEGES;
 
+#
+CREATE DATABASE menagerie;
