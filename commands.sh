@@ -8,6 +8,9 @@ ssh-copy-id -i ~/.ssh/key.pub user@machine
 #Копирование файл(-ов) на удаленный сервер
 scp file.txt user1@remote_server:~/
 
+#Монтирование папки
+sshfs user@remote_server:/path ~/folder
+
 [mysql]
 #
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
