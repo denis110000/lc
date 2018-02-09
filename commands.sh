@@ -23,3 +23,11 @@ FLUSH PRIVILEGES;
 
 #
 CREATE DATABASE menagerie;
+
+[zip]
+#Создает архив archive.tar, содержащий директорию folder/
+tar -cf archive.tar folder/
+
+#Извлекает содержимое архива archive.tar в текущую директорию
+tar -xf archive.tar
+
